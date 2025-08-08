@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f0f23 0%, #1a1a3a 25%, #2d1b69 50%, #1a1a3a 75%, #0f0f23 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.portfolio-card {
+  background: linear-gradient(145deg, rgba(30, 58, 138, 0.2), rgba(67, 56, 202, 0.15));
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px rgba(99, 102, 241, 0.1);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #60a5fa, #a78bfa, #f472b6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.progress-bar::-webkit-progress-bar {
+  border-radius: 15px;
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  background-color: rgba(30, 58, 138, 0.2);
+}
+
+.progress-bar::-webkit-progress-value {
+  border-radius: 15px;
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899);
+}
+
+.scroll-bar::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #3b82f6, #8b5cf6);
+  border-radius: 20px;
+}
+
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Custom animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Code font for technical elements */
+.code-font {
+  font-family: 'JetBrains Mono', monospace;
+}
