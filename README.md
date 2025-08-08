@@ -4,7 +4,7 @@ Modern portfolio website showcasing full-stack development projects, coding achi
 
 ## 🌟 Live Demo
 
-[View Portfolio](https://your-portfolio-url.vercel.app) _(Will be updated after deployment)_
+[View Portfolio](https://ayushmanbaghel.netlify.app/) _(Will be updated after deployment)_
 
 ## 🎯 Features
 
