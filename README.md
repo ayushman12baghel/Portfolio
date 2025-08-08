@@ -3,22 +3,26 @@
 Modern portfolio website showcasing full-stack development projects, coding achievements, and technical skills. Built with React, Vite, and Tailwind CSS.
 
 ## 🌟 Live Demo
-[View Portfolio](https://your-portfolio-url.vercel.app) *(Will be updated after deployment)*
+
+[View Portfolio](https://your-portfolio-url.vercel.app) _(Will be updated after deployment)_
 
 ## 🎯 Features
 
 ### 📂 Projects Showcase
+
 - **Connectify** - Real-time video calling app with WebRTC and Socket.IO
 - **Smart Traffic Management System** - AI-based traffic control using ResNet50 and Random Forest
 - **Rentify** - Airbnb-inspired rental platform with geolocation features
 
 ### 🏆 Coding Achievements
+
 - **640+ Problems Solved** on LeetCode with 200+ day streak
 - **LeetCode Profile** integration with achievement stats
 - **Codeforces & GeeksforGeeks** profile links
 - **9th Position** in New Year Codeathon 2025
 
 ### 💻 Technical Skills
+
 - **Languages:** Java, Python, JavaScript, SQL, HTML, CSS
 - **Frontend:** React.js, Tailwind CSS, Bootstrap
 - **Backend:** Node.js, Express.js, Laravel
@@ -47,23 +51,27 @@ Modern portfolio website showcasing full-stack development projects, coding achi
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js (v14 or higher)
 - npm or yarn
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/ayushman12baghel/portfolio-website.git
    cd portfolio-website
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start development server**
+
    ```bash
    npm run dev
    ```
@@ -112,6 +120,7 @@ CGPA: 8.56/10 (August 2023 - Present)
 
 **Backend Development Intern**  
 CodeVerse Technologies (Jan 2025 - Mar 2025)
+
 - Built scalable REST APIs using Node.js and Express
 - Optimized MongoDB queries improving performance by 30%
 - Implemented JWT-based authentication and role-based access control
