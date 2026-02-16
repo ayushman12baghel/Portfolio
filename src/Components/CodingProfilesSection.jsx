@@ -21,7 +21,7 @@ const CodingProfilesSection = () => {
       platform: "LeetCode",
       username: "Ayushman_Baghel",
       profileUrl: "https://leetcode.com/u/Ayushman_Baghel/",
-      stats: "700+ Problems Solved • 365+ Day Streak",
+      stats: "1000+ Problems Solved • 450+ Day Streak",
       icon: <SiLeetcode />,
       bgColor: "bg-gradient-to-br from-orange-500 to-yellow-600",
     },
