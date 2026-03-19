@@ -6,6 +6,7 @@ import { useRef } from "react";
 import connectifyImg from "../assets/front.png";
 import trafficImg from "../assets/2.png";
 import rentifyImg from "../assets/Rentify front.png";
+import alertImg from "../assets/Alert.png";
 
 const ProjectSection = () => {
   const scrollRef = useRef(null);
@@ -19,14 +20,6 @@ const ProjectSection = () => {
   };
   // Project data from CV
   const projects = [
-    {
-      title: "Connectify",
-      description:
-        "Real-time video calling app with WebRTC, Socket.IO, and secure authentication. Achieved sub-second latency and 98% call reliability.",
-      github: "https://github.com/ayushman12baghel/connectify",
-      live: "https://connectify-opal-mu.vercel.app",
-      image: connectifyImg,
-    },
     {
       title: "Smart Traffic Management System",
       description:
@@ -43,6 +36,22 @@ const ProjectSection = () => {
       live: "https://rentify-7bej.onrender.com/listings",
       image: rentifyImg,
     },
+    {
+      title: "Intelligent Alert Escalation & Resolution System",
+      description:
+        "Real-time automated alert processing platform built with Java, Spring Boot, and Redis. Features an O(1) dynamic rule engine for zero-latency escalation and achieved 100% reduction in manual monitoring.",
+      github: "https://smart-alert-system.vercel.app/",
+      live: "https://smart-alert-system.vercel.app/",
+      image: alertImg,
+    },
+     {
+      title: "Connectify",
+      description:
+        "Real-time video calling app with WebRTC, Socket.IO, and secure authentication. Achieved sub-second latency and 98% call reliability.",
+      github: "https://github.com/ayushman12baghel/connectify",
+      live: "https://connectify-opal-mu.vercel.app",
+      image: connectifyImg,
+    }
   ];
 
   return (
