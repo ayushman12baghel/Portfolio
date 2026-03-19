@@ -12,7 +12,7 @@ const HomeCard = () => {
         </p>
         
         <p className="text-gray-300 text-xl lg:text-2xl">
-          With expertise in Java, Spring Boot, Python, and React, my recent work includes engineering a zero-latency alert escalation engine and an AI-driven traffic optimization model. Beyond development, I am deeply passionate about algorithmic problem-solving—I am a <strong>LeetCode Knight</strong> (Top 5% globally) with a 400+ day streak and over 1,300 problems solved.
+          With expertise in Java, Spring Boot, Python, and React, my recent work includes engineering a zero-latency alert escalation engine and an AI-driven traffic optimization model. Beyond development, I am deeply passionate about algorithmic problem-solving—I am a <strong>LeetCode Knight</strong> (Top 5% globally) with a 450+ day streak and over 1,300 problems solved.
         </p>
 
         <p className="text-gray-300 text-xl lg:text-2xl">
