@@ -40,7 +40,7 @@ const ProjectSection = () => {
       title: "Intelligent Alert Escalation & Resolution System",
       description:
         "Real-time automated alert processing platform built with Java, Spring Boot, and Redis. Features an O(1) dynamic rule engine for zero-latency escalation and achieved 100% reduction in manual monitoring.",
-      github: "https://smart-alert-system.vercel.app/",
+      github: "https://github.com/ayushman12baghel/Smart-Alert-Resolution-System",
       live: "https://smart-alert-system.vercel.app/",
       image: alertImg,
     },
