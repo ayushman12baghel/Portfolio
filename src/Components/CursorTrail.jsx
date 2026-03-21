@@ -32,8 +32,8 @@ const CursorTrail = () => {
       mouse.x = event.clientX;
       mouse.y = event.clientY;
       
-      // Control spawn rate so it's elegant, not messy 
-      if (Math.random() > 0.8) {
+      // Much lower spawn rate to prevent clustering 
+      if (Math.random() > 0.94) {
          particlesArray.push(new Particle(mouse.x, mouse.y));
       }
     };
@@ -43,8 +43,8 @@ const CursorTrail = () => {
         mouse.x = event.touches[0].clientX;
         mouse.y = event.touches[0].clientY;
         
-        // Much higher spawn rate for touch since swipes are sometimes skipped by the browser
-        if (Math.random() > 0.2) {
+        // Very low rate for touch so dragging drops sparse, readable words
+        if (Math.random() > 0.90) {
            particlesArray.push(new Particle(mouse.x, mouse.y));
         }
       }
@@ -55,17 +55,17 @@ const CursorTrail = () => {
         mouse.x = event.touches[0].clientX;
         mouse.y = event.touches[0].clientY;
         
-        // Spawn a mini burst when you first touch the screen
-        for (let i = 0; i < 3; i++) {
-          particlesArray.push(new Particle(mouse.x, mouse.y));
+        // Spawn 1 just to acknowledge the touch
+        if (Math.random() > 0.5) {
+            particlesArray.push(new Particle(mouse.x, mouse.y));
         }
       }
     };
 
     const handleScroll = () => {
-      // If we are scrolling and have a last known touch/mouse position, drop particles!
+      // Very sparse during scrolling
       if (mouse.x !== null && mouse.y !== null) {
-        if (Math.random() > 0.4) {
+        if (Math.random() > 0.90) {
           particlesArray.push(new Particle(mouse.x, mouse.y));
         }
       }
@@ -75,10 +75,10 @@ const CursorTrail = () => {
       constructor(x, y) {
         this.x = x;
         this.y = y;
-        this.size = Math.random() * 8 + 12; // Slightly larger font for readability
-        // Drastically reduce the drift speed so they float gently
-        this.speedX = Math.random() * 0.4 - 0.2;
-        this.speedY = Math.random() * 0.4 - 0.2;
+        this.size = Math.random() * 8 + 14; // Even larger font for mobile readability
+        // Insanely slow drift so it just gently hovers near where you touched
+        this.speedX = Math.random() * 0.15 - 0.075;
+        this.speedY = Math.random() * 0.15 - 0.075;
         this.color = colors[Math.floor(Math.random() * colors.length)];
         this.symbol = symbols[Math.floor(Math.random() * symbols.length)];
         this.life = 1; // Opacity starting at max
@@ -86,8 +86,8 @@ const CursorTrail = () => {
       
       update() {
         this.x += this.speedX;
-        this.y -= Math.random() * 0.2 + 0.1; // Drift upwards much more slowly
-        this.life -= 0.005; // Fade out much more slowly (was 0.015)
+        this.y -= Math.random() * 0.1 + 0.05; // Barely moving upwards
+        this.life -= 0.003; // Incredibly slow fade out
       }
       
       draw() {
