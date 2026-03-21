@@ -1,5 +1,11 @@
 import Home from "./pages/Home";
+import CursorTrail from "./Components/CursorTrail";
 
 export default function App() {
-  return <Home />;
+  return (
+    <>
+      <CursorTrail />
+      <Home />
+    </>
+  );
 }
