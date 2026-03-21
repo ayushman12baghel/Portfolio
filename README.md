@@ -4,7 +4,7 @@ A high-performance portfolio website showcasing my expertise in Data Structures,
 
 ## 🌟 Live Demo
 
-[View Portfolio URL] _(Deploying soon)_
+[View Portfolio](https://ayushmanbaghel.netlify.app/)
 
 ## 🎯 Profile Overview
 
