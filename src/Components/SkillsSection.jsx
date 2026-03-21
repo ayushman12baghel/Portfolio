@@ -4,8 +4,8 @@ import SkillsCard from "./SkillsCard";
 const SkillsSection = () => {
   return (
     <div data-aos="fade-right" className="mb-20 lg:mb-36">
-      <h1 className="text-5xl lg:text-7xl gradient-text mb-10">My Skills</h1>
-      <div className="h-[300px] overflow-y-scroll select-none scroll-bar">
+      <h1 className="text-4xl lg:text-5xl font-mono text-[#4ec9b0] mb-10">// My Skills</h1>
+      <div className="h-[300px] overflow-y-scroll select-none scroll-bar bg-[#1e1e1e] border border-gray-700/50 rounded-lg p-4">
         {/* Core & Backend (Your strongest selling points) */}
         <SkillsCard title={"Data Structures & Algorithms"} value={95} />
         <SkillsCard title={"Java"} value={95} />

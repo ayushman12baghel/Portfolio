@@ -21,7 +21,7 @@ const CodingProfilesSection = () => {
       platform: "LeetCode",
       username: "Ayushman_Baghel",
       profileUrl: "https://leetcode.com/u/Ayushman_Baghel/",
-      stats: "1000+ Problems Solved • 450+ Day Streak",
+      stats: "1000+ Problems Solved • 500+ Day Streak",
       icon: <SiLeetcode />,
       bgColor: "bg-gradient-to-br from-orange-500 to-yellow-600",
     },
@@ -45,26 +45,26 @@ const CodingProfilesSection = () => {
 
   return (
     <div data-aos="fade-down" className="mb-20 lg:mb-36">
-      <h1 className="text-5xl lg:text-7xl gradient-text mb-10">Coding Profiles</h1>
+      <h1 className="text-4xl lg:text-5xl font-mono text-[#4ec9b0] mb-10">// Coding Profiles</h1>
       <div
         ref={scrollRef}
-        className="flex overflow-x-scroll gap-8 lg:p-3 scroll-hide"
+        className="flex overflow-x-auto gap-8 lg:p-3 scroll-bar pb-6"
       >
         {profiles.map((profile, idx) => (
           <CodingProfileCard key={idx} {...profile} />
         ))}
       </div>
-      <div className="flex justify-center items-center gap-3 mt-2 select-none">
+      <div className="flex justify-center items-center gap-3 mt-4 select-none">
         <HiArrowSmLeft
           onClick={hScrollLeft}
-          className="text-xl lg:text-2xl cursor-pointer text-yellow-500 hidden lg:block"
+          className="text-xl lg:text-2xl cursor-pointer text-[#e2aa53] hidden lg:block hover:scale-125 transition-transform"
         />
-        <h2 className="gradient-text font-mono text-lg uppercase">
-          Check my profiles
+        <h2 className="text-[#6a9955] font-mono text-sm uppercase tracking-widest">
+          /* Check my profiles */
         </h2>
         <HiArrowSmRight
           onClick={hScrollRight}
-          className="text-xl lg:text-2xl cursor-pointer text-yellow-500 hidden lg:block"
+          className="text-xl lg:text-2xl cursor-pointer text-[#e2aa53] hidden lg:block hover:scale-125 transition-transform"
         />
       </div>
     </div>

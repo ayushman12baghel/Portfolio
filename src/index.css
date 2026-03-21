@@ -10,35 +10,22 @@
 }
 
 body {
-  background: linear-gradient(135deg, #0f0f23 0%, #1a1a3a 25%, #2d1b69 50%, #1a1a3a 75%, #0f0f23 100%);
+  background-color: #121212;
+  background-image: radial-gradient(circle at 50% 0%, #252526 0%, #0d0d0d 100%);
   background-attachment: fixed;
+  color: #cccccc;
   min-height: 100vh;
 }
 
 .portfolio-card {
-  background: linear-gradient(145deg, rgba(30, 58, 138, 0.2), rgba(67, 56, 202, 0.15));
-  border: 1px solid rgba(99, 102, 241, 0.3);
-  backdrop-filter: blur(20px);
-  box-shadow: 0 8px 32px rgba(99, 102, 241, 0.1);
+  background: #1e1e1e;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #60a5fa, #a78bfa, #f472b6);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #e2aa53; /* Java keyword/class color */
+  font-family: 'JetBrains Mono', monospace;
   font-weight: 600;
-}
-
-.progress-bar::-webkit-progress-bar {
-  border-radius: 15px;
-  border: 1px solid rgba(99, 102, 241, 0.3);
-  background-color: rgba(30, 58, 138, 0.2);
-}
-
-.progress-bar::-webkit-progress-value {
-  border-radius: 15px;
-  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899);
 }
 
 .scroll-bar::-webkit-scrollbar {
@@ -47,8 +34,12 @@ body {
 }
 
 .scroll-bar::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #3b82f6, #8b5cf6);
-  border-radius: 20px;
+  background: #424242;
+  border-radius: 4px;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb:hover {
+  background: #4f4f4f;
 }
 
 .scroll-hide::-webkit-scrollbar {
@@ -58,11 +49,11 @@ body {
 /* Custom animations */
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
+  50% { transform: translateY(-5px); }
 }
 
 .floating {
-  animation: float 3s ease-in-out infinite;
+  animation: float 4s ease-in-out infinite;
 }
 
 /* Code font for technical elements */
