@@ -1,58 +1,52 @@
-# 🚀 Ayushman Baghel - Portfolio Website
+# 🚀 Ayushman Baghel - Software Engineer & Problem Solver
 
-Modern portfolio website showcasing full-stack development projects, coding achievements, and technical skills. Built with React, Vite, and Tailwind CSS.
+A high-performance portfolio website showcasing my expertise in Data Structures, Algorithms, Microservices, and scalable architectures. Built with React, Vite, Tailwind CSS, and a specialized IDE-themed Canvas aesthetic.
 
 ## 🌟 Live Demo
 
-[View Portfolio](https://ayushmanbaghel.netlify.app/) _(Will be updated after deployment)_
+[View Portfolio URL] _(Deploying soon)_
 
-## 🎯 Features
+## 🎯 Profile Overview
 
-### 📂 Projects Showcase
+- **Role:** Software Engineer & Problem Solver
+- **Expertise:** Data Structures, Algorithms & Microservices
+- **Problem Solving:** 1300+ Problems solved, 500+ day streak, Knight (Top 5%) rating.
 
-- **Connectify** - Real-time video calling app with WebRTC and Socket.IO
-- **Smart Traffic Management System** - AI-based traffic control using ResNet50 and Random Forest
-- **Rentify** - Airbnb-inspired rental platform with geolocation features
+## 📂 Projects Showcase
 
-### 🏆 Coding Achievements
+- **intelligentAlertEscalationSystem** - Real-time automated alert processing platform built with Java, Spring Boot, and Redis. Features an O(1) dynamic rule engine for zero-latency escalation.
+- **smartTrafficManagementSystem** - AI-based multi-lane traffic control system using ResNet50 and Random Forest.
+- **connectify** - Real-time video calling app with WebRTC, Socket.IO, and secure authentication. Sub-second latency.
+- **rentify** - Airbnb-inspired rental platform with dynamic listings and geolocation features.
 
-- **640+ Problems Solved** on LeetCode with 200+ day streak
-- **LeetCode Profile** integration with achievement stats
-- **Codeforces & GeeksforGeeks** profile links
-- **9th Position** in New Year Codeathon 2025
+## 💻 Technical Arsenal
 
-### 💻 Technical Skills
+- **Core & Backend:** Java, Spring Boot, C++, Node.js, Express.js
+- **Algorithms & Architecture:** Data Structures, Algorithm Optimization, Microservices
+- **Frontend / Full Stack:** React.js, JavaScript, Tailwind CSS, HTML/CSS
+- **Databases & Caching:** PostgreSQL, MySQL, MongoDB, Redis
+- **ML / AI:** Python, Scikit-Learn
+- **DevOps & Tools:** Git, Docker, Postman
 
-- **Languages:** Java, Python, JavaScript, SQL, HTML, CSS
-- **Frontend:** React.js, Tailwind CSS, Bootstrap
-- **Backend:** Node.js, Express.js, Laravel
-- **Databases:** MongoDB, MySQL
-- **AI/ML:** TensorFlow, Scikit-learn
-- **Tools:** Git, VS Code, Postman
+## 🎨 Creative Architecture
 
-## 🎨 Design Features
-
-- **Modern UI** with glass morphism effects
-- **Gradient color scheme** (blue/purple theme)
-- **Responsive design** for all devices
-- **Smooth animations** with AOS (Animate On Scroll)
-- **Interactive elements** with hover effects
-- **Terminal-style** portfolio card design
+- **IDE Workspace Theme:** Immersive dark slate colors mirroring professional VS Code development environments.
+- **JavaScript Canvas API Particles:** A custom cursor module that spawns algorithmic keywords seamlessly trailing the mouse/touch.
+- **Parallax CSS Animations:** Advanced pseudo-element rendering to ensure infinite deep-space visual depth.
+- **Responsive Fluid Layouts:** Tailored viewing experiences spanning 4k monitors to vertical mobile displays.
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js, Vite
-- **Styling:** Tailwind CSS, Custom CSS
-- **Animations:** AOS (Animate On Scroll)
-- **Icons:** React Icons
-- **Fonts:** Inter, JetBrains Mono
-- **Deployment:** Vercel
+- **React.js + Vite**
+- **Tailwind CSS & Raw CSS Parallaxing**
+- **HTML5 Canvas API**
+- **AOS (Animate On Scroll)**
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js (v18 or higher recommended)
 - npm or yarn
 
 ### Installation
@@ -61,7 +55,7 @@ Modern portfolio website showcasing full-stack development projects, coding achi
 
    ```bash
    git clone https://github.com/ayushman12baghel/portfolio-website.git
-   cd portfolio-website
+   cd portfolio-website/client
    ```
 
 2. **Install dependencies**
@@ -76,31 +70,12 @@ Modern portfolio website showcasing full-stack development projects, coding achi
    npm run dev
    ```
 
+   _(Use `npm run dev -- --host` for mobile network previewing)_
+
 4. **Build for production**
    ```bash
    npm run build
    ```
-
-## 📁 Project Structure
-
-```
-src/
-├── components/
-│   ├── AboutCard.jsx
-│   ├── CodingProfilesSection.jsx
-│   ├── ContactSection.jsx
-│   ├── HomeCard.jsx
-│   ├── PortfolioCard.jsx
-│   ├── ProjectSection.jsx
-│   └── SkillsSection.jsx
-├── pages/
-│   └── Home.jsx
-├── assets/
-│   ├── images/
-│   └── icons/
-└── styles/
-    └── index.css
-```
 
 ## 📞 Contact
 
@@ -109,37 +84,6 @@ src/
 - **LinkedIn:** [ayushmanbaghel12](https://linkedin.com/in/ayushmanbaghel12)
 - **GitHub:** [ayushman12baghel](https://github.com/ayushman12baghel)
 - **LeetCode:** [Ayushman_Baghel](https://leetcode.com/u/Ayushman_Baghel/)
-
-## 🎓 Education
-
-**B.Tech in Computer Science and Engineering**  
-Lovely Professional University, Jalandhar  
-CGPA: 8.56/10 (August 2023 - Present)
-
-## 💼 Experience
-
-**Backend Development Intern**  
-CodeVerse Technologies (Jan 2025 - Mar 2025)
-
-- Built scalable REST APIs using Node.js and Express
-- Optimized MongoDB queries improving performance by 30%
-- Implemented JWT-based authentication and role-based access control
-
-## 🏆 Achievements
-
-- 🥇 Dean's List - Top 1% academic excellence
-- 🥉 9th Position in New Year Codeathon 2025 (Sakshm AI + Microsoft)
-- 👨‍💻 Technical Head of student coding community (3,000+ followers)
-- 🔥 640+ DSA problems solved with 200+ day streak
-- 🏆 Winner of Unstop Giveaway
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ayushman12baghel/portfolio-website/issues).
 
 ---
 
