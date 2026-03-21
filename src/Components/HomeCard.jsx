@@ -62,9 +62,9 @@ const HomeCard = () => {
         <div className="relative group">
           
           <div className="relative p-2 rounded-2xl z-10 border-2 border-gray-700/50 bg-[#1e1e1e]">
-            <div className="absolute top-0 right-0 p-2 transform translate-x-1/2 -translate-y-1/2 z-20 hidden md:block">
+            <div className="absolute -top-4 -right-2 md:top-0 md:right-0 p-2 transform md:translate-x-1/2 md:-translate-y-1/2 z-20">
                <div className="bg-[#2d2d2d] border border-gray-600/50 py-1.5 px-3 rounded shadow-xl">
-                 <p className="font-mono text-xs text-[#ce9178]">O(1) mindset</p>
+                 <p className="font-mono text-[10px] md:text-xs text-[#ce9178]">O(1) mindset</p>
                </div>
             </div>
             <img

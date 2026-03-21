@@ -17,7 +17,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="w-[80vw]  mx-auto">
+    <div className="w-[90vw] lg:w-[80vw] max-w-[1200px] mx-auto overflow-hidden sm:overflow-visible">
       <PortfolioCard />
       <HomeCard />
       <AboutCard />
