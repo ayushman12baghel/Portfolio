@@ -38,7 +38,7 @@ const HomeCard = () => {
               </div>
               <ul className="grid grid-cols-2 gap-2 text-[13px]">
                 <li><span className="text-[#9cdcfe]">rating</span>: <span className="text-[#ce9178]">"Knight (Top 5%)"</span></li>
-                <li><span className="text-[#9cdcfe]">solved</span>: <span className="text-[#b5cea8]">1300</span></li>
+                <li><span className="text-[#9cdcfe]">solved</span>: <span className="text-[#b5cea8]">1400</span></li>
                 <li><span className="text-[#9cdcfe]">streak</span>: <span className="text-[#b5cea8]">500+</span></li>
                 <li><span className="text-[#9cdcfe]">focus</span>: <span className="text-[#ce9178]">"DP & Graphs"</span></li>
               </ul>
